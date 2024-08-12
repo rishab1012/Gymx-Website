@@ -1,0 +1,119 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+    body{
+      background-color: #040D12 ;
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th{
+      padding-bottom: 30px;
+      padding-left: 195px;
+      text-align: left;
+      /* border-bottom: 1px solid greenyellow; */
+      font-size: 22px;
+      font-family: 'Poppins' , sans-serif;
+      color: white;
+    }
+     td {
+      padding-left: 195px;
+      padding-bottom: 5px;
+      text-align: left;
+      border-bottom: 1px solid #313131 !important;
+      font-size: 22px;
+      font-family: 'Poppins' , sans-serif;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #313131 !important;
+    }
+
+    h1{
+      position: relative;
+      left: 41%;
+      color: white !important;
+      font-family: 'Poppins', sans-serif;
+      padding: 30px;
+    }
+  
+
+    /*switch*/
+    .switch
+    {
+       position: relative;
+       top: 7px;
+       display: inline-block;
+       width: 75px;
+       height: 30px;
+      margin: 40 10px;
+    }
+
+    .slider
+    {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #B80000;
+      transition: 0.4s;
+      border-radius: 34px;
+    }
+
+    .switch input {display:none}
+
+    .slider:before
+    {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 35px;
+      left: 5px;
+      bottom: 5px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50px;
+      box-shadow: 0 0 10px 5px rgba(49, 44, 44, 0.5); 
+}
+
+    input:checked + .slider
+    {
+      background-color: #113f14;
+    }
+    
+    input:checked + .slider:before
+    {
+      transform: translateX(30px)
+    }
+
+    /* Style for the "Notify" button */
+.notify-button {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid transparent; 
+  border-radius: 70px;
+  padding: 10; 
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  font-size: 12px; 
+  /* text-transform: uppercase;  */
+  font-weight: bold;
+  position: relative;
+  bottom: 5px;
+}
+
+/* Change the button style on hover */
+.notify-button:hover {
+  color: #fff;
+  border-color: #272626;
+}
+

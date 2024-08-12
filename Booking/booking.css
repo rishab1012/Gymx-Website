@@ -1,0 +1,125 @@
+.body1{
+    /* min-height: 100vh; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    background-color:#040D12 !important;
+  
+
+}
+.container1{
+    position: relative;
+    top: 50px;
+    max-width: 900px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(227, 197, 197, 0.1);
+    left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 .form1 form {
+  display:flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.container1 header{
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: left;
+
+}
+.form1 .input-box{
+    width: 40%;
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: #ffffff;
+
+}
+
+.form1 .input-box input{
+    position: relative;
+    height: 50px;
+    width:100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+
+}
+
+
+.form1 .column{
+    display: flex;
+    column-gap: 15px;
+}
+
+ .btn{
+    height: 55px;
+    width:100%;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+    transition: all 0.2 ease;
+    background-color: #c04747;
+    
+}
+
+.btn:hover{
+    background-color: #883434
+}
+
+@media screen and (max-width: 500px){
+.form1 .column{
+    flex-wrap: wrap;
+}
+}
+
+/*For profile user.*/
+.container1 img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+  }
+
+.ipt{
+    padding-top: 20px;
+}
+
+.item1{
+    height: 90px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
+    margin: 40px auto;
+}
+
+.column {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
+   
+}
