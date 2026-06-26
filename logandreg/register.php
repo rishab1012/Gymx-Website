@@ -63,9 +63,9 @@ try {
               <td style=\"padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; text-align: center;\">
                 <p>We’re excited to have you join us for a transformative fitness journey!</p>
                 <p>Before you dive into our amenities and beginner-friendly classes, please verify your email address by clicking the button below:</p>
-                <p><a href=\"http://localhost/gymx/logandreg/verify.php?email=$email&v_code=$v_code\" style=\"background-color: #007bff; color: #ffffff; display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">Verify Your Email</a></p>
+                <p><a href=\"https://gym-x.freedev.app/logandreg/verify.php?email=$email&v_code=$v_code\" style=\"background-color: #007bff; color: #ffffff; display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 5px;\">Verify Your Email</a></p>
                 <p>If the above button doesn't work, you can copy and paste the following URL into your web browser's address bar:</p>
-                <p>http://localhost/gymx/logandreg/verify.php?email=$email&v_code=$v_code</p>
+                <p>https://gym-x.freedev.app/logandreg/verify.php?email=$email&v_code=$v_code</p>
               </td>
             </tr>
           </table>
@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($password != $confirmPassword) {
         echo "<script>
                         alert('password doesnt match');
-                        window.location.href='http://localhost/gymx/logandreg/registration2.php';
+                        window.location.href='https://gym-x.freedev.app/logandreg/registration2.php';
                     </script>";
         
         exit();
@@ -116,7 +116,7 @@ if ($resultEmail->num_rows > 0) {
       alert('Email already exists');
     </script>";
     echo "<script>
-        window.location.href='http://localhost/gymx/logandreg/registration2.php';
+        window.location.href='https://gym-x.freedev.app/logandreg/registration2.php';
     </script>";
     exit(); // Stop further execution
 }

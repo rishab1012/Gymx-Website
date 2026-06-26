@@ -17,7 +17,7 @@ if(mysqli_num_rows($result_check_id) > 0) {
     // Trainer ID already exists, display alert message
     echo "<script>alert('Trainer ID already exists. Please choose a different ID.');</script>";
     // Redirect back to the previous page
-    echo "<script>window.location.href = 'http://localhost/gymx/Trainerspage/trainers.php';</script>";
+    echo "<script>window.location.href = 'https://gym-x.freedev.app/Trainerspage/trainers.php';</script>";
     exit();
 }
 
@@ -25,7 +25,7 @@ $sql = "INSERT INTO trainers_list (trainer_id, trainer_name, gender, trainer_ema
 
 $result = mysqli_query($conn, $sql) or die("query unsuccessful.");
 
-header("Location: http://localhost/gymx/Trainerspage/trainers.php");
+header("Location: https://gym-x.freedev.app/Trainerspage/trainers.php");
 
 mysqli_close($conn);
 ?>

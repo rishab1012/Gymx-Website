@@ -24,7 +24,7 @@ if (isset($_POST['details_save'])) {
 
     if ($emailExists || $enrollmentExists) {
         $_SESSION['status'] = "Enrollment number or email already exists";
-        header("Location: http://localhost/gymx/Members/members.php");
+        header("Location: https://gym-x.freedev.app/Members/members.php");
         exit;
     }
 
@@ -33,10 +33,10 @@ if (isset($_POST['details_save'])) {
 
     if ($result) {
         $_SESSION['status'] = "Saved successfully";
-        header("Location: http://localhost/gymx/Members/members.php");
+        header("Location: https://gym-x.freedev.app/Members/members.php");
     } else {
         $_SESSION['status'] = "Details not saved";
-        header("Location: http://localhost/gymx/Members/members.php");
+        header("Location: https://gym-x.freedev.app/Members/members.php");
     }
 }
 

@@ -3,7 +3,7 @@
 session_start();
         if(!isset($_SESSION['username'])){
           echo "<script>
-                        window.location.href='http://localhost/gymx/logandreg/registration2.php';
+                        window.location.href='https://gym-x.freedev.app/logandreg/registration2.php';
                     </script>";
         }
         else{
@@ -322,15 +322,15 @@ if (!onlyLettersRegex.test(clientName)) {
       <ul class="navbar-nav ms-auto">
           
                 <li class="nav-item active">
-                    <a class="nav-link" title="Home" id="h" href="http://localhost/gymx/UserSide/userSide.php">Home</a>
+                    <a class="nav-link" title="Home" id="h" href="https://gym-x.freedev.app/UserSide/userSide.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="c" title="Contact"
-                        href="http://localhost/gymx/contact/contact_page/contact.html">Contact</a>
+                        href="https://gym-x.freedev.app/contact/contact_page/contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="e" title="Booking"
-                        href="http://localhost/gymx/Booking/Booking.php">Booking</a>
+                        href="https://gym-x.freedev.app/Booking/Booking.php">Booking</a>
                 </li>
             </ul>
           </div>
@@ -344,7 +344,7 @@ if (!onlyLettersRegex.test(clientName)) {
       <header style="text-align: center;">
         <h2>Book Membership</h2>
       </header>
-      <form action="http://localhost/gymx/gateway/checkout.php" class="form1" name="myform" method="post" enctype="multipart/form-data">
+      <form action="https://gym-x.freedev.app/gateway/checkout.php" class="form1" name="myform" method="post" enctype="multipart/form-data">
 
         <div class="item1">
         <div class="input-box">

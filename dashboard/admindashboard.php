@@ -8,7 +8,7 @@
 <?php
         if(!isset($_SESSION['adminusername'])){
           echo "<script>
-                        window.location.href='http://localhost/gymx/AdminLogin/login.php';
+                        window.location.href='https://gym-x.freedev.app/AdminLogin/login.php';
                     </script>";
         }
         else{
@@ -149,31 +149,31 @@ $conn->close();
           </a>
         </li>
         <li>
-          <a title="Home" href="http://localhost/gymx/dashboard/admindashboard.php">
+          <a title="Home" href="https://gym-x.freedev.app/dashboard/admindashboard.php">
             <i class="fas fa-home"></i>
             <span class="nav-item">Home</span>
           </a>
         </li>
         <li>
-          <a title="Members " href="http://localhost/gymx/Members/members.php">
+          <a title="Members " href="https://gym-x.freedev.app/Members/members.php">
             <i class="fas fa-users"></i>
             <span class="nav-item">Member Management</span>
           </a>
         </li>
         <li>
-          <a title="Trainers" href="http://localhost/gymx/Trainerspage/trainers.php">
+          <a title="Trainers" href="https://gym-x.freedev.app/Trainerspage/trainers.php">
             <i class="fas fa-user"></i>
             <span class="nav-item">Trainer Management</span>
           </a>
         </li>
         <li>
-          <a title="Booking" href="http://localhost/gymx/Admin side booking page/Booking.php">
+          <a title="Booking" href="https://gym-x.freedev.app/Admin side booking page/Booking.php">
             <i class="fas fa-book"></i>
             <span class="nav-item">Book Membership</span>
           </a>
         </li>
         <li>
-          <a title="Plans" href="http://localhost/gymx/plans/plansDetails.php">
+          <a title="Plans" href="https://gym-x.freedev.app/plans/plansDetails.php">
             <i class="fas fa-list"></i>
             <span class="nav-item">Plan Management</span>
           </a>

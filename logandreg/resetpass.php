@@ -135,7 +135,7 @@
         <p>To reset your password, please click the button below:</p>
       </div>
       <div class=\"button-container\">
-        <a href=\"http://localhost/gymx/logandreg/updatepassword.php?email=$email&resettoken=$reset_token\" class=\"button\">Reset Password</a>
+        <a href=\"https://gym-x.freedev.app/logandreg/updatepassword.php?email=$email&resettoken=$reset_token\" class=\"button\">Reset Password</a>
     <div class=\"footer\">
       If you didn't request this password reset or need further assistance, please contact us immediately.
     </div>

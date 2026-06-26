@@ -14,11 +14,11 @@ if ($enteredUsername === $hardcodedUsername && $enteredPassword === $hardcodedPa
     $hardcodedUsername = "user";
     $_SESSION['adminusername'] = $hardcodedUsername;
     // If the credentials match, you can redirect the user to a link
-    header("Location: http://localhost/gymx/dashboard/admindashboard.php");
+    header("Location: https://gym-x.freedev.app/dashboard/admindashboard.php");
 } else {
     echo "<script>
         alert('Please enter valid name or password');
-        window.location.href='http://localhost/gymx/AdminLogin/login.php';
+        window.location.href='https://gym-x.freedev.app/AdminLogin/login.php';
     </script>";
 }
 ?>

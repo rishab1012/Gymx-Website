@@ -83,7 +83,7 @@ if(isset($_POST['update_student']))
 
         $query_run = mysqli_query($conn, $query);
 
-        header("Location: http://localhost/gymx/Trainerspage/trainers.php");
+        header("Location: https://gym-x.freedev.app/Trainerspage/trainers.php");
 
     }
     if(isset($_POST['delete_member'])){
@@ -93,6 +93,6 @@ if(isset($_POST['update_student']))
         $query = "DELETE FROm trainers_list WHERE trainer_id = '$id' ";
         $query_run = mysqli_query($conn, $query);
     
-        header("Location: http://localhost/gymx/Trainerspage/trainers.php");
+        header("Location: https://gym-x.freedev.app/Trainerspage/trainers.php");
     }
 ?>

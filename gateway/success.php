@@ -51,7 +51,7 @@ if (!empty($_POST)){
             alert('Email already exists');
           </script>";
           echo "<script>
-              window.location.href='http://localhost/gymx/Booking/Booking.php';
+              window.location.href='https://gym-x.freedev.app/Booking/Booking.php';
           </script>";
             exit(); // Terminate script execution
         }
@@ -105,8 +105,8 @@ if (!empty($_POST)){
               <i class="fas fa-check-circle icon-check"></i>
               <h1 class="mt-3">Payment Successful!</h1>
               <p class="lead">Thank you for choosing GymX Membership.</p>
-              <a href="http://localhost/gymx/UserSide/userSide.php" class="btn btn-danger mt-3">Go to GymX Homepage</a>
-              <a href="http://localhost/gymx/gateway/bill.php" class="btn btn-success mt-3">Download Booking Summary</a>
+              <a href="https://gym-x.freedev.app/UserSide/userSide.php" class="btn btn-danger mt-3">Go to GymX Homepage</a>
+              <a href="https://gym-x.freedev.app/gateway/bill.php" class="btn btn-success mt-3">Download Booking Summary</a>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ if (!empty($_POST)){
           function updateCountdown() {
             document.getElementById(\'countdown\').innerText = countdown;
             if (countdown === 0) {
-              window.location.href = "http://localhost/gymx/UserSide/userSide.php";
+              window.location.href = "https://gym-x.freedev.app/UserSide/userSide.php";
             } else {
               countdown--;
               setTimeout(updateCountdown, 1000);
@@ -202,7 +202,7 @@ if (!empty($_POST)){
           <div class="container">
               <h1 class="mb-4">Payment Failed</h1>
               <p>We apologize for the inconvenience, but it seems that your payment has failed. Please try again later.</p>
-              <a href="http://localhost/gymx/UserSide/userSide.php" class="btn btn-redirect">Go to Homepage</a>
+              <a href="https://gym-x.freedev.app/UserSide/userSide.php" class="btn btn-redirect">Go to Homepage</a>
           </div>
       
           <!-- Bootstrap JS and dependencies -->

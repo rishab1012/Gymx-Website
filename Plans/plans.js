@@ -1,3 +1,3 @@
 document.getElementsById("plus-button").onclick = function() {
-    window.location.href = "http://localhost/gymx/Plans/plans.php";
+    window.location.href = "https://gym-x.freedev.app/Plans/plans.php";
     };

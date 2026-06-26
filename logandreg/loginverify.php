@@ -18,7 +18,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
             $result_fetch = $result->fetch_assoc();
             if ($result_fetch['is_verified'] == 1 && password_verify($password, $result_fetch['password'])) {
                 echo "<script>
-                        window.location.href='http://localhost/gymx/UserSide/userSide.php';
+                        window.location.href='https://gym-x.freedev.app/UserSide/userSide.php';
                     </script>";
             } else {
                 echo "<script>

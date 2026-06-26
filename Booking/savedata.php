@@ -16,7 +16,7 @@ $conn= mysqli_connect("localhost","root","","gymx") or die("connection failed");
 $sql= "INSERT INTO members_list(Enrollment_no,Client_name,Present_address,phone_no,DOB,Medical_issues,Em_name,Em_address,Em_phone_no) VALUES('{$ER_NO}','{$CLIENT_NAME}','{$PRESENT_ADDRESS}', '{$PHONE_NO}','{$DOB}','{$MEDICAL_ISSUES}','{$EM_NAME}','{$EM_ADDRESS}','{$EM_PHONE_NO}')";
 $result= mysqli_query($conn, $sql) or die("query unsuccessful.");
 
-header("Location: http://localhost/gymx/members/navbar.php");
+header("Location: https://gym-x.freedev.app/members/navbar.php");
 
 mysqli_close($conn);
 ?>

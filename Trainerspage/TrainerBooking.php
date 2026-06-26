@@ -2,7 +2,7 @@
 session_start();
         if(!isset($_SESSION['adminusername'])){
           echo "<script>
-                        window.location.href='http://localhost/gymx/AdminLogin/login.php';
+                        window.location.href='https://gym-x.freedev.app/AdminLogin/login.php';
                     </script>";
         }
         else{
@@ -262,19 +262,19 @@ function validateForm() {
       <ul class="navbar-nav ms-auto">
           
           <li class="nav-item active">
-              <a class="nav-link" title="Home" href="http://localhost/gymx/dashboard/admindashboard.php">Home</a>
+              <a class="nav-link" title="Home" href="https://gym-x.freedev.app/dashboard/admindashboard.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Members" href="http://localhost/gymx/Members/members.php">Members</a>
+              <a class="nav-link" title="Members" href="https://gym-x.freedev.app/Members/members.php">Members</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Trainers" href="http://localhost/gymx/Trainerspage/trainers.php">Trainers</a>
+              <a class="nav-link" title="Trainers" href="https://gym-x.freedev.app/Trainerspage/trainers.php">Trainers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Booking" href="http://localhost/gymx/Admin side booking page/Booking.php">Booking</a>
+              <a class="nav-link" title="Booking" href="https://gym-x.freedev.app/Admin side booking page/Booking.php">Booking</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Plans" href="http://localhost/gymx/plans/plansDetails.php">plans</a>
+              <a class="nav-link" title="Plans" href="https://gym-x.freedev.app/plans/plansDetails.php">plans</a>
             </li>
             </ul>
           </div>
@@ -288,7 +288,7 @@ function validateForm() {
       <header style="text-align: center;">
         <h2>Add Trainer</h2>
       </header>
-      <form action="http://localhost/gymx/Trainerspage/savedata.php" class="form1" name="myform" method="post" enctype="multipart/form-data">
+      <form action="https://gym-x.freedev.app/Trainerspage/savedata.php" class="form1" name="myform" method="post" enctype="multipart/form-data">
 
         <div class="item1">
         <div class="input-box">
