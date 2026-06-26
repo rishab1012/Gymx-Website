@@ -218,10 +218,10 @@
 
       <?php
 // Database configuration
-$host = "localhost"; // Change this to your database host
-$username = "root"; // Change this to your database username
-$password = ""; // Change this to your database password
-$database = "gymx"; // Change this to your database name
+$host = "sql312.infinityfree.com";
+$username = "if0_42274282";
+$password = "91KcOEpSw0Na";
+$database = "if0_42274282_gymx";
 
 // Create a database connection
 $conn = new mysqli($host, $username, $password, $database);
