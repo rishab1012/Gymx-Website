@@ -218,7 +218,7 @@
 
       <?php
 // Database configuration
-$host = "sql312.infinityfree.com";
+$host = "localhost";
 $username = "if0_42274282";
 $password = "91KcOEpSw0Na";
 $database = "if0_42274282_gymx";
