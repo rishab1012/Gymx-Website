@@ -147,7 +147,7 @@
                         href="https://gym-x.freedev.app/Booking/Booking.php">Booking</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://gym-x.freedev.app/AdminLogin/login.php">Admin</a>
+                    <a class="nav-link" id="a" title="Admin" href="https://gym-x.freedev.app/AdminLogin/login.php">Admin</a>
                 </li>
             </ul>
             <?php
