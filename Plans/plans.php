@@ -217,10 +217,10 @@
               <a class="nav-link" title="Trainers" href="https://gym-x.freedev.app/Trainerspage/trainers.php">Trainers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Booking" href="https://gym-x.freedev.app/Admin side booking page/Booking.php">Booking</a>
+              <a class="nav-link" title="Booking" href="https://gym-x.freedev.app/Admin%20side%20booking%20page/Booking.php">Booking</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Plans" href="https://gym-x.freedev.app/plans/plansDetails.php">plans</a>
+              <a class="nav-link" title="Plans" href="https://gym-x.freedev.app/Plans/plansDetails.php">plans</a>
             </li>
             </ul>
           </div>

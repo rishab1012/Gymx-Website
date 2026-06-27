@@ -160,7 +160,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
 
-            <button class="plus-button" id="plus-button" title="Add plan"><a href="https://gym-x.freedev.app/plans/plans.php">+</a></button>
+            <button class="plus-button" id="plus-button" title="Add plan"><a href="https://gym-x.freedev.app/Plans/plans.php">+</a></button>
             <li class="nav-item active">
               <a class="nav-link" title="Home" href="https://gym-x.freedev.app/dashboard/admindashboard.php">Home</a>
             </li>
@@ -171,10 +171,10 @@
               <a class="nav-link" title="Trainers" href="https://gym-x.freedev.app/Trainerspage/trainers.php">Trainers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Booking" href="https://gym-x.freedev.app/Admin side booking page/Booking.php">Booking</a>
+              <a class="nav-link" title="Booking" href="https://gym-x.freedev.app/Admin%20side%20booking%20page/Booking.php">Booking</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" title="Plans" href="https://gym-x.freedev.app/plans/plansDetails.php">plans</a>
+              <a class="nav-link" title="Plans" href="https://gym-x.freedev.app/Plans/plansDetails.php">plans</a>
             </li>
           </ul>
         </div>
