@@ -146,6 +146,9 @@
                     <a class="nav-link" id="e" title="Booking"
                         href="https://gym-x.freedev.app/Booking/Booking.php">Booking</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://gym-x.freedev.app/AdminLogin/login.php">Admin</a>
+                </li>
             </ul>
             <?php
             session_start();
