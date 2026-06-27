@@ -220,7 +220,7 @@
 // Database configuration
 $host = "localhost";
 $username = "if0_42274282";
-$password = "91KcOEpSw0Na";
+$password = "Gymx2026pass";
 $database = "if0_42274282_gymx";
 
 // Create a database connection
