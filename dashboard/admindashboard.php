@@ -15,7 +15,7 @@
 
   ?>
 <?php
-$conn = mysqli_connect("localhost", "if0_42274282", "Gymx2026pass", "if0_42274282_gymx") or die("Connection failed");
+$conn = mysqli_connect("sql312.infinityfree.com", "if0_42274282", "Gymx2026pass", "if0_42274282_gymx") or die("Connection failed");
 
 $activeMembers = "SELECT COUNT(Enrollment_no) AS activeMembers FROM members_list WHERE M_status = 1";
 $inactiveMembers = "SELECT COUNT(*) AS inactiveMembers FROM members_list WHERE M_status = 0";
