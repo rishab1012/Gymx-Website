@@ -167,13 +167,13 @@ $conn->close();
           </a>
         </li>
         <li>
-          <a title="Booking" href="https://gym-x.freedev.app/Admin side booking page/Booking.php">
+          <a title="Booking" href="https://gym-x.freedev.app/Admin%20side%20booking%20page/Booking.php">
             <i class="fas fa-book"></i>
             <span class="nav-item">Book Membership</span>
           </a>
         </li>
         <li>
-          <a title="Plans" href="https://gym-x.freedev.app/plans/plansDetails.php">
+          <a title="Plans" href="https://gym-x.freedev.app/Plans/plansDetails.php">
             <i class="fas fa-list"></i>
             <span class="nav-item">Plan Management</span>
           </a>
