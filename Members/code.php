@@ -1,5 +1,5 @@
 <?php 
-$conn= mysqli_connect("localhost","root","","gymx") or die("connection failed");
+$conn= mysqli_connect("sql312.infinityfree.com","if0_42274282","Gymx2026pass","if0_42274282_gymx") or die("connection failed");
 
 if(isset($_POST['checking_viewbtn'])){
     $s_id = $_POST['student_id'];
@@ -98,7 +98,7 @@ if(isset($_POST['update_student']))
 
         $query_run = mysqli_query($conn, $query);
 
-        header("Location: https://gym-x.freedev.app/members/members.php");
+        header("Location: https://gym-x.freedev.app/Members/members.php");
 
     }
 
@@ -110,6 +110,6 @@ if(isset($_POST['delete_member'])){
     $query = "DELETE FROm members_list WHERE Enrollment_no = '$id' ";
     $query_run = mysqli_query($conn, $query);
 
-    header("Location: https://gym-x.freedev.app/members/members.php");
+    header("Location: https://gym-x.freedev.app/Members/members.php");
 }
 ?>
